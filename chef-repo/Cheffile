@@ -1,0 +1,15 @@
+#!/usr/bin/env ruby
+#^syntax detection
+
+site "http://community.opscode.com/api/v1"
+
+cookbook 'apache2', '>= 1.0.0',
+	:git => 'https://github.com/opscode-cookbooks/apache2',
+	:ref => '26a3d84c8b958fcb475afe2117f86d8f79599e8f'
+cookbook 'apt',
+	:git => 'https://github.com/opscode-cookbooks/apt',
+	:ref => 'c5332257e0f3ea7891ded9f1ff275ffee05a0b77'
+cookbook 'postgresql',
+	:git => 'https://github.com/opscode-cookbooks/postgresql',
+	:ref => '9eb99acf592f162220008d2bff9101b76a109d21'
+
