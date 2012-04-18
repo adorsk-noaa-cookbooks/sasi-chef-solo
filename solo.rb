@@ -1,7 +1,9 @@
+file_dir = File.dirname(__FILE__)
+
 file_cache_path "/var/chef-solo"
 cookbook_path [
-	"/home/adorsk/projects/sasi/chef/solo/chef-repo/cookbooks",
-	"/home/adorsk/projects/sasi/chef/solo/chef-repo/dev-cookbooks"
+	"#{file_dir}/chef-repo/cookbooks",
+	"#{file_dir}/chef-repo/dev-cookbooks"
 ] 
-role_path "/home/adorsk/projects/sasi/chef/solo/chef-repo/roles"
+role_path "#{file_dir}/chef-repo/roles"
 
