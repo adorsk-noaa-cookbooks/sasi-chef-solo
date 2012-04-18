@@ -15,7 +15,7 @@ run_list(
 override_attributes(
 	"python" => {
 		"prefix_dir" => "/usr"
-	},
+	}
 	#"postgresql" => {
 		#"password" => {
 			#"postgres" => "SECRET"
