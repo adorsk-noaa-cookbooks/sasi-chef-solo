@@ -12,4 +12,7 @@ cookbook 'apt',
 cookbook 'postgresql',
 	:git => 'https://github.com/opscode-cookbooks/postgresql',
 	:ref => '9eb99acf592f162220008d2bff9101b76a109d21'
+cookbook 'python',
+	:git => 'https://github.com/opscode-cookbooks/python',
+	:ref => 'a5cce1a3e1451ef325ae973bdb1c197e43f8a5e8'
 
